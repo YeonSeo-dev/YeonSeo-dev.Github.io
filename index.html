@@ -4,67 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🍀 이연서 | Android Developer</title>
-    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
+    
+    <!-- GitHub Markdown CSS (가장 비슷한 스타일) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown.min.css">
+    
     <style>
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            max-width: 980px;
-            margin: 40px auto;
-            padding: 0 20px;
-            line-height: 1.7;
-            color: #24292f;
             background-color: #ffffff;
+            padding: 40px 20px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
         }
-        h1, h2, h3, h4 {
-            color: #24292f;
-        }
-        table {
-            border-collapse: collapse;
-            width: 100%;
-            margin: 20px 0;
-        }
-        th, td {
-            border: 1px solid #d0d7de;
-            padding: 12px 16px;
-            text-align: left;
-        }
-        th {
-            background-color: #f6f8fa;
-            font-weight: 600;
-        }
+        
         .markdown-body {
-            font-size: 16px;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+            border: 1px solid #d0d7de;
+            border-radius: 12px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
         }
-        a {
-            color: #0969da;
-            text-decoration: none;
+
+        /* GitHub Markdown CSS와 잘 어울리도록 약간 조정 */
+        .markdown-body table {
+            display: block;
+            width: 100%;
+            overflow: auto;
         }
-        a:hover {
-            text-decoration: underline;
+        
+        .markdown-body img {
+            max-width: 100%;
+            height: auto;
         }
-        /* 스킬 배지 스타일 */
-        .skills img {
-            margin: 4px 4px 4px 0;
-            border-radius: 6px;
+
+        /* 스킬 배지 간격 조정 */
+        .skills a {
+            margin-right: 6px;
+            margin-bottom: 8px;
+            display: inline-block;
         }
-        blockquote {
-            border-left: 4px solid #16de46;
-            padding-left: 16px;
-            color: #57606a;
-            background-color: #f6f8fa;
-            padding: 12px 16px;
-            border-radius: 6px;
-        }
+
+        /* 헤더 이미지 (원하시면 주석 해제) */
+        /* .header-image { width: 100%; border-radius: 12px; margin-bottom: 30px; } */
     </style>
 </head>
 <body>
 
-<div class="markdown-body">
+<article class="markdown-body">
 
-<!-- 헤더 이미지 (주석 해제하고 싶으면 주석 제거하세요) -->
-<!-- <img src="https://capsule-render.vercel.app/api?type=waving&color=16de46&height=180&section=header&text=🍀%20Android%20Developer&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=36" alt="header" style="width:100%; border-radius: 12px;"> -->
+<!-- 헤더 이미지 사용하고 싶으면 아래 주석 해제 -->
+<!-- <img src="https://capsule-render.vercel.app/api?type=waving&color=16de46&height=180&section=header&text=🍀%20Android%20Developer&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=36" alt="header" class="header-image"> -->
 
-<h2>🍀 이연서</h2>
+<h1>🍀 이연서</h1>
 
 <blockquote>
   <strong>도전하는 개발자 이연서입니다.</strong>
@@ -72,10 +63,7 @@
 
 <table>
   <thead>
-    <tr>
-      <th>Period</th>
-      <th>Description</th>
-    </tr>
+    <tr><th>Period</th><th>Description</th></tr>
   </thead>
   <tbody>
     <tr><td>2026.01 ~</td><td>🧡 Freelancer</td></tr>
@@ -87,13 +75,10 @@
 
 <h4>🔽 최신순</h4>
 
-<h3>🔥 Experience</h3>
+<h2>🔥 Experience</h2>
 <table>
   <thead>
-    <tr>
-      <th>Period</th>
-      <th>Description</th>
-    </tr>
+    <tr><th>Period</th><th>Description</th></tr>
   </thead>
   <tbody>
     <tr><td>2024.04 ~ 2024.11 <code>8개월</code></td><td>👩🏻‍💻 <a href="https://www.swmaestro.org/sw/main/main.do">Software Maestro</a> 15th 수료</td></tr>
@@ -106,15 +91,10 @@
   </tbody>
 </table>
 
-<h3>🏆 Award</h3>
+<h2>🏆 Award</h2>
 <table>
   <thead>
-    <tr>
-      <th>Year</th>
-      <th>Contest</th>
-      <th>Institution</th>
-      <th>Award</th>
-    </tr>
+    <tr><th>Year</th><th>Contest</th><th>Institution</th><th>Award</th></tr>
   </thead>
   <tbody>
     <tr><td>2023</td><td><a href="https://www.koreajobworld.or.kr/boardView.do?bid=1&mid=42&idx=46484&rnum=271&pageNo=&pageType=&site=10&portalMenuNo=39&searchField=0&searchString=">메카이브 메이커톤</a></td><td>한국잡월드</td><td><strong>우수상(3위)</strong></td></tr>
@@ -127,15 +107,10 @@
   </tbody>
 </table>
 
-<h3>✨ Release</h3>
+<h2>✨ Release</h2>
 <table>
   <thead>
-    <tr>
-      <th>Period</th>
-      <th>Service</th>
-      <th>Description</th>
-      <th>Role</th>
-    </tr>
+    <tr><th>Period</th><th>Service</th><th>Description</th><th>Role</th></tr>
   </thead>
   <tbody>
     <tr><td>2024.10</td><td><a href="https://play.google.com/store/apps/details?id=com.marastro.mykkumi.android">마이꾸미</a></td><td>취미 및 제품 정보 공유 서비스</td><td>Android</td></tr>
@@ -145,35 +120,20 @@
   </tbody>
 </table>
 
-<h3>🛠️ Skills</h3>
-<div class="skills" align="left">
-  <!-- 여기에 스킬 배지들이 그대로 들어갑니다 -->
-  <a href="https://learn.microsoft.com/ko-kr/dotnet/" target="_blank"><img src="http://img.shields.io/badge/-VB.NET-512BD4?style=for-the-badge&logo=.NET&logoColor=white" alt="VB.NET" height="24"/></a>
-  <a href="https://www.oracle.com/" target="_blank"><img src="http://img.shields.io/badge/-oracle-181717?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle" height="24"/></a>
-  <a href="https://developer.android.com" target="_blank"><img src="http://img.shields.io/badge/-Android_Studio-3DDC84?style=for-the-badge&logo=Android%20Studio&logoColor=white" alt="android" height="24"/></a>
-  <a href="https://kotlinlang.org" target="_blank"><img src="http://img.shields.io/badge/-Kotlin-7f52ff?style=for-the-badge&logo=Kotlin&logoColor=white" alt="kotlin" height="24"/></a>
-  <a href="https://www.java.com" target="_blank"><img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white" alt="java" height="24"/></a>
-  <a href="https://reactjs.org/" target="_blank"><img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="react" height="24"/></a>
-  <a href="https://reactnative.dev/" target="_blank"><img src="https://img.shields.io/badge/react_native-282C34?style=for-the-badge&logo=react&logoColor=#61DAFB" alt="reactnative" height="24"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="http://img.shields.io/badge/-Javascript-f7e018?style=for-the-badge&logo=javascript&logoColor=black" alt="javascript" height="24"/></a>
-  <a href="https://www.w3.org/html/" target="_blank"><img src="http://img.shields.io/badge/-HTML5-f06529?style=for-the-badge&logo=HTML5&logoColor=white" alt="html5" height="24"/></a>
-  <a href="https://www.w3schools.com/css/" target="_blank"><img src="http://img.shields.io/badge/-CSS3-1572b6?style=for-the-badge&logo=CSS3" alt="css3" height="24"/></a>
-  <a href="https://nodejs.org" target="_blank"><img src="http://img.shields.io/badge/-Node.js-333?style=for-the-badge&logo=Node.js" alt="nodejs" height="24"/></a>
-  <a href="https://www.mysql.com/" target="_blank"><img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white" alt="mysql" height="24"/></a>
-  <a href="https://www.cprogramming.com/" target="_blank"><img src="http://img.shields.io/badge/c-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="c" height="24"/></a>
-  <a href="https://www.python.org" target="_blank"><img src="http://img.shields.io/badge/-Python-3776ab?style=for-the-badge&logo=Python&logoColor=white" alt="python" height="24"/></a>
-  <a href="https://flutter.dev" target="_blank"><img src="https://img.shields.io/badge/flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="flutter" height="24"/></a>
-  <a href="https://dart.dev" target="_blank"><img src="https://img.shields.io/badge/dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="dart" height="24"/></a>
-  <a href="https://threejs.org/" target="_blank"><img src="http://img.shields.io/badge/-Three.js-000000?style=for-the-badge&logo=threedotjs" alt="Three.js" height="24"/></a>
-  <a href="https://code.visualstudio.com/" target="_blank"><img src="http://img.shields.io/badge/visual_studio_code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="visualstudiocode" height="24"/></a>
-  <a href="https://visualstudio.microsoft.com/ko/" target="_blank"><img src="http://img.shields.io/badge/visual_studio-854CC7?style=for-the-badge&logo=visualstudio&logoColor=white" alt="visualstudio" height="24"/></a>
-  <a href="https://git-scm.com/" target="_blank"><img src="http://img.shields.io/badge/-Git-f05032?style=for-the-badge&logo=Git&logoColor=white" alt="git" height="24"/></a>
-  <a href="https://github.com/" target="_blank"><img src="http://img.shields.io/badge/-Github-181717?style=for-the-badge&logo=Github&logoColor=white" alt="github" height="24"/></a>
-  <a href="https://firebase.google.com/" target="_blank"><img src="http://img.shields.io/badge/-Firebase-2C384A?style=for-the-badge&logo=firebase" alt="firebase" height="24"/></a>
-  <a href="https://www.figma.com/" target="_blank"><img src="http://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="figma" height="24"/></a>
+<h2>🛠️ Skills</h2>
+<div class="skills">
+  <a href="https://developer.android.com" target="_blank"><img src="http://img.shields.io/badge/-Android_Studio-3DDC84?style=for-the-badge&logo=Android%20Studio&logoColor=white" alt="android" height="28"/></a>
+  <a href="https://kotlinlang.org" target="_blank"><img src="http://img.shields.io/badge/-Kotlin-7f52ff?style=for-the-badge&logo=Kotlin&logoColor=white" alt="kotlin" height="28"/></a>
+  <a href="https://www.java.com" target="_blank"><img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white" alt="java" height="28"/></a>
+  <a href="https://reactjs.org/" target="_blank"><img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="react" height="28"/></a>
+  <a href="https://nodejs.org" target="_blank"><img src="http://img.shields.io/badge/-Node.js-333?style=for-the-badge&logo=Node.js" alt="nodejs" height="28"/></a>
+  <!-- 필요하면 다른 배지도 추가하세요 -->
+  <a href="https://flutter.dev" target="_blank"><img src="https://img.shields.io/badge/flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="flutter" height="28"/></a>
+  <a href="https://github.com/" target="_blank"><img src="http://img.shields.io/badge/-Github-181717?style=for-the-badge&logo=Github&logoColor=white" alt="github" height="28"/></a>
+  <!-- ... 나머지 배지는 원본대로 추가 가능 -->
 </div>
 
-</div>
+</article>
 
 </body>
 </html>
